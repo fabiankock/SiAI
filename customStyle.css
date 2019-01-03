@@ -11,6 +11,11 @@ h1, h2{
     width: 100% !important;
 }
 
+.column{
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
 .gray{
 
     background-color: #dddddd;
