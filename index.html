@@ -67,15 +67,19 @@
 
             <div id="customers" class="sixteen wide column">
                 <div class="ui segment">
-                    <div class="ui top attached tabular center menu">
-                        <div class="item">ZF</div>
-                        <div class="item">MTU</div>
-                        <div class="item">Zeppelin</div>
+                    <div class="ui top attached tabular menu">
+                        <a class="item active" data-tab="first">ZF</a>
+                        <a class="item" data-tab="second">MTU</a>
+                        <a class="item" data-tab="third">Zeppelin</a>
                     </div>
-                    <div class="ui grid container">
-                        <div class="three wide column"></div>
-                        <div class="ten wide column"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
-                        <div class="three wide column"></div>
+                    <div class="ui bottom attached tab segment active" data-tab="first">
+                        Hier ist der ZF Promo Text
+                    </div>
+                    <div class="ui bottom attached tab segment" data-tab="second">
+                        Hier ist der MTU Promo Text
+                    </div>
+                    <div class="ui bottom attached tab segment" data-tab="third">
+                        Hier ist der Zeppelin Promo Text
                     </div>
                 </div>
             </div>
@@ -87,5 +91,6 @@
                 </div>
             </div>
         </div>
+        <script src="./script.js"></script>
     </body>
 </html>
