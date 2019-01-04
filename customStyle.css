@@ -1,4 +1,19 @@
-body, button, a, h3, h5{
+p, button, a, h3 {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 18px !important;
+}
+
+.buttonColor1{
+    background-color: green !important;
+    color: white !important;
+}
+
+.buttonColor2{
+    background-color: blue !important;
+    color: white !important;
+}
+
+h5 {
     font-family: 'Roboto', sans-serif !important;
 }
 
@@ -12,13 +27,20 @@ h1, h2{
 }
 
 .column{
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
 }
 
-.gray{
+.dark{
 
-    background-color: #dddddd;
+    background-color: #ECEFF1 !important;
+    color: rgba(0,0,0,0.8) !important;
+}
+
+.bright{
+
+    background-color: #ffffff !important;
+    color: rgba(0,0,0,0.8) !important;
 }
 
 #navigation_bar{
