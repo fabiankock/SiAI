@@ -53,8 +53,8 @@ h1, h2{
 }
 
 .image_bg {
-    height: 80vh;
-    background-image: url("images/circuit.jpg");
+    height: 100vh;
+    background-image: url("images/quantum_chip2.jpeg");
     background-size: cover;
 }
 
@@ -68,4 +68,29 @@ h1, h2{
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+}
+
+.whiteFont {
+    color: white !important;
+}
+
+.transparentBlack {
+    border-radius: 5px;
+    padding: 4rem;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#call_to_action_top h1 {
+    font-size: 6rem;
+}
+
+#call_to_action_top p {
+    margin-top: 32px;
+    font-size: 2rem !important;
+}
+
+#call_to_action_top button {
+    margin-top: 32px;
+    margin-right: 8px;
+    margin-left: 8px;
 }
