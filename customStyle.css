@@ -44,6 +44,7 @@ h1, h2{
 }
 
 .image_bg {
+    padding: 0 !important;
     height: 100vh;
     background-image: url("images/quantum_chip2.jpeg");
     background-size: cover;
@@ -93,4 +94,8 @@ h1, h2{
 
 .firmenlogo {
     height: 150px;
+}
+
+.show_grid{
+    border: 0px solid red;
 }
