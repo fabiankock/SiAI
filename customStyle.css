@@ -48,7 +48,8 @@ h1, h2{
     margin-bottom: 1rem !important;
 }
 
-.review_text {
+.review_text * {
+    line-height: 2rem !important;
     margin-top: 44px;
 }
 
