@@ -97,4 +97,9 @@ h1, h2{
 
 .firmenlogo img {
     padding: 16px;
+    margin: auto;
+}
+
+.firmenlogo {
+    height: 150px;
 }
