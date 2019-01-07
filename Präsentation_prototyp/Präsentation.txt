@@ -1,0 +1,32 @@
+Navigation Bar:
+-Logo (nicht final) um jederzeit zum Start zurück zu kommen
+-Sticky -> immer erreichbar
+
+1. CTA Button:
+-Hintergrundbild -> interessant, modern
+-Kurze und knackige Tagline
+-Produkt im Fokus
+-Testen u. Kontaktaufnahme möglich
+-Blockstruktur
+-Nimmt gesamten Bildschirm ein
+-Farben des Frameworks für Buttons (sind abgestimmt)
+-Titelschrift Roboto Monospace --> Programmierung/Informatik
+-Fließtext Roboto
+-Roboto sehr bekannt, beliebt, sehr verbreitet durch Google, gut lesbar, keine Schnörkel
+
+2. Kurzbeschreibung
+-Einfache, kurze Texte, die das Produkt grob beschreiben, sodass Funktion klar wird
+-Begleitende Bilder lassen die Texte interessanter wirken
+
+3. Alleinstellungsmerkmale
+-Explizite Vorteile unseres Produktes
+-Untermauernde Bilder
+-Etwas ausführlichere Texte (gerade genug, um die Vorteile klar darzustellen)
+
+4. Kundenzitate
+-Sorgt für gute Reputation
+-Firmenlogos als Bedienelement für die Anzeige des entsprechenden Zitates
+-Bedienung nicht ganz klar, Pfeile oder Striche unter den Logos als zusätzliches Feedback/Bedienelement
+
+5. 2. CTA Buttons
+- Nach Informierung erneute Möglichkeit zu Testen oder Kontakt aufzunehmen
