@@ -14,6 +14,8 @@ Navigation Bar:
 -Fließtext Roboto
 -Roboto sehr bekannt, beliebt, sehr verbreitet durch Google, gut lesbar, keine Schnörkel
 
+-----------------------------------------------------------------------------------------------------------------------
+
 2. Kurzbeschreibung
 -Einfache, kurze Texte, die das Produkt grob beschreiben, sodass Funktion klar wird
 -Begleitende Bilder lassen die Texte interessanter wirken
