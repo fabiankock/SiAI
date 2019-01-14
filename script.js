@@ -2,6 +2,8 @@ $('.menu .item')
   .tab()
 ;
 
+$('#zf').css('border-bottom', '2px solid blue');
+
 $('.ui.sticky')
   .sticky({
     context: '#main_container'
@@ -10,6 +12,8 @@ $('.ui.sticky')
 
 $('.firmenlogo').bind('mouseover', function(event) {
   $('.review_text').hide();
+  $('.firmenlogo').css('border-bottom', '0px solid blue');
+  $('#'+event.currentTarget.id).css('border-bottom', '2px solid blue');
   $('.'+event.currentTarget.id).show();
 })
 

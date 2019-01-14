@@ -40,7 +40,7 @@ h1, h2{
 
 .review_text * {
     line-height: 2rem !important;
-    margin-top: 44px;
+    margin-top: 44px !important;
 }
 
 .image_bg {
@@ -89,13 +89,20 @@ h1, h2{
 
 .firmenlogo img {
     padding: 16px;
-    margin: auto;
+    vertical-align: middle;
 }
 
 .firmenlogo {
     height: 150px;
+    width: 150px;
 }
 
 .show_grid{
     border: 0px solid red;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
