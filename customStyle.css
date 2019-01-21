@@ -40,8 +40,13 @@ h1, h2{
 }
 
 .review_text * {
+    padding: 32px !important;
     line-height: 2rem !important;
     margin-top: 44px !important;
+}
+
+.review_text:first-child {
+    text-align: justify;
 }
 
 .image_bg {
@@ -108,4 +113,10 @@ h1, h2{
     display: inline-block;
     height: 100%;
     vertical-align: middle;
+}
+
+.review_text_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
