@@ -79,7 +79,6 @@ $('.firmenlogo').bind('mouseover', function(event) {
 $('#customers').bind('mouseleave', function(event) {
   isHover = false;
   timeouts.push(setTimeout(displayNextLogo, 5000));
-  currentIndex = 0;
 })
 
 $(document).ready(function() {
