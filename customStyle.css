@@ -38,10 +38,14 @@ h1, h2{
     margin-bottom: 1rem !important;
 }
 
+.review_text {
+    height: 350px;
+}
+
 .review_text * {
     padding: 32px !important;
     line-height: 2rem !important;
-    margin-top: 44px !important;
+    margin-top: 22px !important;
 }
 
 .review_text:first-child {
