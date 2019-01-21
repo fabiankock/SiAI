@@ -1,0 +1,18 @@
+Raster:
+Umgesetzt fast wie geplant
+Alleinstellungsmerkmale schmaler
+
+Typografie:
+Roboto Mono für Überschriften
+Roboto als Fließtext
+
+Farben:
+Color Tool von Adobe für hamermonierende Farben
+schlichtes Design (weiß/grau mit schwarzer Schrift)
+
+Finale Website (änderungen):
+Buttonfarbe
+Images
+Animation Firmen
+Navigation Bar
+Responsiveness der Firmen
