@@ -9,14 +9,14 @@ $('.ui.sticky')
     context: '#main_container'
   })
 ;
-let currentTimeOut;
+
 let timeouts = [];
 let isHover = false;
 
 $('#switch_comment_left').on('click', function(event){
   currentIndex--;
   if(currentIndex < 0) {
-    currentIndex = 0;
+    currentIndex = 5;
   }
   timeouts.forEach(timeout=>{
     clearTimeout(timeout);
@@ -37,7 +37,7 @@ $('#switch_comment_left').on('click', function(event){
 $('#switch_comment_right').on('click', function(event){
   currentIndex++;
   if(currentIndex > 5) {
-    currentIndex = 5;
+    currentIndex = 0;
   }
   timeouts.forEach(timeout=>{
     clearTimeout(timeout);
@@ -66,6 +66,14 @@ $('.firmenlogo').bind('mouseover', function(event) {
   $('.firmenlogo').css('border-bottom', '0px solid blue');
   $('#'+event.currentTarget.id).css('border-bottom', '2px solid blue');
   $('.'+event.currentTarget.id).show();
+  switch(event.currentTarget.id) {
+    case "zf": currentIndex = 0; break;
+    case "mtu": currentIndex = 1; break;
+    case "zeppelin": currentIndex = 2; break;
+    case "hbo": currentIndex = 3; break;
+    case "liebherr": currentIndex = 4; break;
+    case "sap": currentIndex = 5; break;
+  }
 })
 
 $('#customers').bind('mouseleave', function(event) {
@@ -104,5 +112,5 @@ function displayNextLogo() {
   if (currentIndex > 5) {currentIndex=0;}
   timeouts.push(setTimeout(function(){
     displayNextLogo();
-  },5000));
+  },10000));
 }
