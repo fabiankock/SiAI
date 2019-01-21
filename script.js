@@ -112,5 +112,5 @@ function displayNextLogo() {
   if (currentIndex > 5) {currentIndex=0;}
   timeouts.push(setTimeout(function(){
     displayNextLogo();
-  },5000));
+  },10000));
 }
