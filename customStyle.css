@@ -1,6 +1,7 @@
 p, button, a, h3 {
     font-family: 'Roboto', sans-serif !important;
     font-size: 16px !important;
+    color: black !important;
 }
 
 h5 {
@@ -24,7 +25,7 @@ h1, h2{
 
 .dark{
 
-    background-color: #ECEFF1 !important;
+    background-color: #CACDCF !important;
     color: rgba(0,0,0,0.8) !important;
 }
 
@@ -94,7 +95,9 @@ h1, h2{
 
 .firmenlogo {
     height: 150px;
-    width: 150px;
+    width: 15% !important;
+    margin: 0px !important;
+    
 }
 
 .show_grid{
